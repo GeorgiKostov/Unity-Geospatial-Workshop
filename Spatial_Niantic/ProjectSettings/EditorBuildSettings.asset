@@ -6,82 +6,61 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/MenuManager/Scenes/MainMenu.unity
-    guid: 0b1b5c5e4650e314587437a509247a2b
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/CustomMapLayers.unity
-    guid: 7dbda0eeac4804246be539e75f10ee09
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Labels Sample/FeatureLabels.unity
-    guid: d3c9a2f8c822e4df8b41990f086e14c0
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Multi-Language Labels Sample/FeatureLabelsLanguage.unity
-    guid: 9438397b381d04496ad2051739527f32
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Map-Based Resource Game/GameSample.unity
-    guid: 1c6ca86493a854ed4a5f5ee7605f9991
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/MapThemes.unity
-    guid: b6b32e71cc79043b4aa7447796745a32
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Scenes/OrbitCamera.unity
-    guid: 53c4b90b883b64b04bcdfc280dffbb2b
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/OrbitCamera.unity
-    guid: 6a755ebfca758491a981eafc58a9422b
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Map Theming Sample/Scenes/OrthographicCamera.unity
-    guid: 9ead039d2406d4f0c9acad406a56a8ef
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Top-Down Camera Sample/OrthographicCamera.unity
-    guid: 5a6d1efcafec547488aaae446ba519d5
-  - enabled: 1
-    path: Assets/Samples/Lightship Maps SDK/0.4.0/Render-to-Texture Sample/RenderToTexture.unity
-    guid: a4b65570de75d4f8f8c0b9b6a0c1f343
-  - enabled: 1
-    path: Assets/Samples/ARDK Samples/WPS/Scenes/CompassScene.unity
-    guid: f036d5120f667497d9097f9e60b22d7f
-  - enabled: 1
-    path: Assets/Samples/ARDK Samples/Depth/Scenes/DepthDisplay.unity
-    guid: 0316d7286c1fc4aa9b1a49cf74de428e
-  - enabled: 1
-    path: Assets/Samples/ARDK Samples/Home/Scenes/Home.unity
+    path: Assets/Samples/Home/Scenes/Home.unity
     guid: ca5e717807acf4f0eac815ac612d2331
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/SharedAR/Scenes/ImageTrackingColocalization.unity
+    path: Assets/Samples/OnDevicePersistence/Scenes/CloudPersistence.unity
+    guid: 01bd1296e3cd84f69ab62631ea5d3dc4
+  - enabled: 1
+    path: Assets/Samples/WPS/Scenes/CompassScene.unity
+    guid: f036d5120f667497d9097f9e60b22d7f
+  - enabled: 1
+    path: Assets/Samples/Depth/Scenes/DepthDisplay.unity
+    guid: 0316d7286c1fc4aa9b1a49cf74de428e
+  - enabled: 1
+    path: Assets/Samples/SharedAR/Scenes/ImageTrackingColocalization.unity
     guid: 41a110b1790a049f491907b95e423d6e
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/NavigationMesh/Scenes/NavigationMesh.unity
+    path: Assets/Scenes/Introduction.unity
+    guid: 3b90294a4f2174d46ab21b906a86e8ee
+  - enabled: 1
+    path: Assets/Samples/NavigationMesh/Scenes/NavigationMesh.unity
     guid: a06c30b00ed554db68bfe3b791e59681
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/Meshing/Scenes/NormalMeshes.unity
+    path: Assets/Samples/Meshing/Scenes/NormalMeshes.unity
     guid: 2c0c87824fb144caf906bc9617676a4a
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/ObjectDetection/Scenes/ObjectDetection.unity
+    path: Assets/Samples/ObjectDetection/Scenes/ObjectDetection.unity
     guid: 44d3900bd5e104354a9ec8cdd17db747
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/Depth/Scenes/Occlusion.unity
+    path: Assets/Samples/Depth/Scenes/Occlusion.unity
     guid: 331912c5e833c4a10a84546c00090b66
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/OnDevicePersistence/Scenes/OnDevicePersistence.unity
+    path: Assets/Samples/OnDevicePersistence/Scenes/OnDevicePersistence.unity
     guid: b09618836d6b14bbcbb672ed5ca8547f
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/Scanning/Scenes/Recording.unity
+    path: Assets/Samples/Scanning/Scenes/Recording.unity
     guid: a8b815c6414994643b8e7a33e5b2ccf2
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/PersistentAR/Scenes/RemoteAuthoring.unity
+    path: Assets/Samples/PersistentAR/Scenes/RemoteAuthoring.unity
     guid: cdd6a99ef030b43f78bb5b19cce5f58b
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/Semantics/Scenes/SemanticsDisplay.unity
+    path: Assets/Settings/Project Configuration/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Samples/Semantics/Scenes/SemanticsDisplay.unity
     guid: b43e677e36f234310adf6553404abbe5
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/SharedAR/Scenes/SharedARVPS.unity
+    path: Assets/Samples/SharedAR/Scenes/SharedARNoNetcode.unity
+    guid: db713206c2bb940d7b0d94b84f22503f
+  - enabled: 1
+    path: Assets/Samples/SharedAR/Scenes/SharedARVPS.unity
     guid: 5e2255d8c3c944f5b9830e69be55f728
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/Meshing/Scenes/TexturedMesh.unity
+    path: Assets/Samples/Meshing/Scenes/TriplanarMesh.unity
     guid: b2ac3f3f19a3241819ef559a6bb893cd
   - enabled: 1
-    path: Assets/Samples/ARDK Samples/PersistentAR/Scenes/VPSLocalization.unity
+    path: Assets/Samples/PersistentAR/Scenes/VPSLocalization.unity
     guid: 4d27e438dba0e4b118ee8e3a35ce3fa6
   m_configObjects:
     Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 102e595f5ef8f534f9ed1a131415b8f3,
@@ -94,7 +73,8 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 0b53a025a635a4393ba0b49822242280,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3fd4fc0127790db4bae83f7b77da8d45,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 35d0a95eeda964a40a7be7be884e643f,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2751b5cd4300340c38aef3e21700408a,
       type: 2}
+  m_UseUCBPForAssetBundles: 0

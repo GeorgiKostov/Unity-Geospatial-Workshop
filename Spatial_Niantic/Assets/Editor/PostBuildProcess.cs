@@ -1,3 +1,4 @@
+// Copyright 2022-2025 Niantic.
 #if UNITY_IOS && UNITY_EDITOR_OSX
 using System.IO;
 using UnityEditor;
@@ -23,8 +24,9 @@ public class PostBuildProcess : MonoBehaviour
         var plist = new PlistDocument();
         plist.ReadFromString(File.ReadAllText(plistPath));
         var rootDict = plist.root;
-        rootDict.SetString("UIFileSharingEnabled", "YES");
-        rootDict.SetString("LSSupportsOpeningDocumentsInPlace", "YES");
+        rootDict.SetBoolean("UIFileSharingEnabled", true);
+        rootDict.SetBoolean("LSSupportsOpeningDocumentsInPlace", true);
+        rootDict.SetBoolean("ITSAppUsesNonExemptEncryption", false);
         File.WriteAllText(plistPath, plist.WriteToString());
     }
 }

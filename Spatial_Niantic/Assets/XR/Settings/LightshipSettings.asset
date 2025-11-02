@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abc3dbfe57c4ad49b19309f187d9e1a, type: 3}
   m_Name: LightshipSettings
   m_EditorClassIdentifier: 
-  _apiKey: yaGc3nDPqAm6LrUTqAy4Bu0p7DwhNC03nqfcuvzBiub5wd8nMc8qxGPoe1zyduBe1EWaES
+  _apiKey: dYyKsYLQkYPDBCz9c5uZxt5Y8da3aRn7k0uQ8NZQinR9Xc4yGcTbS7H8FNrmHt5cBcdm7g
   _useLightshipDepth: 1
   _preferLidarIfAvailable: 1
   _useLightshipMeshing: 1
@@ -56,3 +56,5 @@ MonoBehaviour:
     _runPlaybackManually: 0
     _loopInfinitely: 0
     _numberOfIterations: 1
+    _startFrame: 0
+    _endFrame: -1
