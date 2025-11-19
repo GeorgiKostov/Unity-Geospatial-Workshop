@@ -8,6 +8,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CesiumForUnitySamples/Scenes/01_CesiumWorld.unity
     guid: f247585a97d347241b998d973481c4f5
+  - enabled: 1
+    path: Assets/CesiumForUnitySamples/Scenes/02_CesiumMelbourne.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/CesiumForUnitySamples/Scenes/03_CesiumSanFrancisco.unity
+    guid: e010cb28e74af7f4cb516a1406e8bfd0
+  - enabled: 1
+    path: Assets/CesiumForUnitySamples/Scenes/04_CesiumSubScenes.unity
+    guid: e54220fcb39b78747af82a94effcecbb
+  - enabled: 1
+    path: Assets/CesiumForUnitySamples/Scenes/05_CesiumMetadata.unity
+    guid: debc061107cae8a42add7dda8d13e88a
+  - enabled: 1
+    path: Assets/CesiumForUnitySamples/Scenes/06_CesiumPointClouds.unity
+    guid: 3455b738d00623a4e98e6da467dcd86a
+  - enabled: 1
+    path: Assets/CesiumForUnitySamples/Scenes/07_CesiumGoogleMapsTiles.unity
+    guid: 3885440dd2aedf64395ee6aaa6b8c9d5
+  - enabled: 1
+    path: Assets/CesiumForUnitySamples/Scenes/08_CesiumArchitecturalDesign.unity
+    guid: 99d2a7b785ed8be49ac064510a8ee3c7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 104c734f532456449b2b22836e63b8d3,
       type: 2}
@@ -15,3 +36,4 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 487117b3af1c74e398d1eba625435208,
       type: 2}
+  m_UseUCBPForAssetBundles: 0

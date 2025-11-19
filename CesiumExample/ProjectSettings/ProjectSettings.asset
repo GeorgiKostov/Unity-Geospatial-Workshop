@@ -817,8 +817,9 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: STARTER_ASSETS_PACKAGES_CHECKED
-    Standalone: STARTER_ASSETS_PACKAGES_CHECKED
+    Android: STARTER_ASSETS_PACKAGES_CHECKED;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
+    Standalone: STARTER_ASSETS_PACKAGES_CHECKED;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
+    Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
